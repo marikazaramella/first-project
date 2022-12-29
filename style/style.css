@@ -1,0 +1,73 @@
+ /*html*/
+html {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(37, 39, 50);
+margin: 10px;
+     }
+     /*titoli*/
+                                                                                                                    
+ h1#titolo-pagina.titolo-articolo {
+color: dimgray;
+font-size: 3rem;
+text-align: center;
+}
+                                                                                                                    
+ h2 {
+color: lightslategray;
+font-style: 1.5rem;
+}
+                                                                                                                    
+h3 {
+color: lightslategray;
+font-style: italic;
+font-size: 1.3rem;
+}
+/*illustrazioni*/
+                                                                                                                    
+#immagine-1 img {
+background-color: silver;
+padding: 7px;
+margin: 10px;
+box-sizing: border-box;
+width: 50%;
+height: auto;
+}
+                                                                                                                    
+#immagine-2 img {
+background-color: silver;
+padding: 7px;
+margin: 10px;
+box-sizing: border-box;
+height: 20%;
+max-height: 300px;
+width: auto;
+}
+                                                                                                                    
+#immagine-3 img {
+background-color: silver;
+padding: 7px;
+margin: 10px;
+box-sizing: border-box;
+width: 50%;
+height: auto;
+}
+/*caption*/
+                                                                                                                    
+.caption-illustrazione {
+color: lightslategray;
+}
+                                                                                                                    
+.nome-autore {
+color: black;
+}
+/*citazioni*/
+                                                                                                                    
+.citazione-blocco {
+width: 30%;
+padding: 1.5em;
+color: black;
+border: 5px;
+border-color: lightslategray;
+border-style: double;
+background-color: rgba(211, 211, 211, 0.5)
+}
